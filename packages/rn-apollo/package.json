@@ -1,0 +1,40 @@
+{
+  "name": "@king-sky/rn-apollo",
+  "version": "1.0.0",
+  "exports": {
+    "./apollo-provider": "./src/apollo-provider.tsx"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "generate:component": "turbo gen react-component"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/sukedesu/sk-turbo.git",
+    "directory": "packages/rn-apollo"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "apollo3-cache-persist": "^0.15.0",
+    "@apollo/client": "^3.10.8",
+    "expo-secure-store": "^13.0.2",
+    "apollo-upload-client": "^18.0.1"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.74.3"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@turbo/gen": "^1.12.4",
+    "@types/node": "^20.11.24",
+    "@types/eslint": "^8.56.5",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.3",
+
+    "@types/apollo-upload-client": "^18.0.0"
+  }
+}
