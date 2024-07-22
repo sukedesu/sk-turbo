@@ -19,8 +19,8 @@ export function RnApolloProvider({
 }: {
   children: ReactNode;
   splash: FC;
-  client: ApolloClient<any>;
-  cache: ApolloClientOptions<any>['cache'];
+  client: ApolloClient<any>; // eslint-disable-line
+  cache: ApolloClientOptions<any>['cache']; // eslint-disable-line
   cachePersistOptions: Omit<ApolloPersistOptions<{ key: string }>, 'cache' | 'storage'>;
 }) {
   const [persistor, setPersistor] = useState<CachePersistor<NormalizedCacheObject>>();
