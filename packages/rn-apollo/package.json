@@ -2,7 +2,8 @@
   "name": "@king-sky/rn-apollo",
   "version": "1.0.0",
   "exports": {
-    "./apollo-provider": "./src/apollo-provider.tsx"
+    "./apollo-provider": "./src/apollo-provider.tsx",
+    "./apollo-client": "./src/apollo-client.ts"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",

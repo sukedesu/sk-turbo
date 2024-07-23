@@ -1,10 +1,6 @@
 import { FC, ReactNode, useEffect, useState } from 'react';
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
 import { ApolloClient, ApolloProvider as Provider, NormalizedCacheObject } from '@apollo/client';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
 import type { ApolloClientOptions } from '@apollo/client/core/ApolloClient';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { AsyncStorageWrapper, CachePersistor } from 'apollo3-cache-persist';

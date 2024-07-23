@@ -1,17 +1,7 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
 import { ApolloClient, ApolloLink, from, HttpLink } from '@apollo/client';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
 import { ApolloClientOptions } from '@apollo/client/core/ApolloClient';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
 import { setContext } from '@apollo/client/link/context';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
 import { onError } from '@apollo/client/link/error';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
 import createUploadLink from 'apollo-upload-client/createUploadLink.mjs';
 import * as SecureStore from 'expo-secure-store';
 
